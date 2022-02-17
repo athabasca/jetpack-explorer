@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1405206210}
   - component: {fileID: 1405206205}
   - component: {fileID: 1405206211}
-  - component: {fileID: 631001974}
+  - component: {fileID: 8640109447359352940}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a71837c63ceaec468c6d779427b903d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainEngine: {fileID: 8300000, guid: ef315e10763bc734bba359ebbbac46b2, type: 3}
   thrustSpeed: 250
   rotationThrust: 100
 --- !u!82 &1405206211
@@ -139,7 +140,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ef315e10763bc734bba359ebbbac46b2, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -225,7 +226,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &631001974
+--- !u!114 &8640109447359352940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,3 +238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49867ccf0c490b246ae42a9299e56525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoadDelay: 2
+  crash: {fileID: 8300000, guid: 6163dfd8a3199a74e97d2b54ea3a5b82, type: 3}
+  success: {fileID: 8300000, guid: db51fcf824f983140878936db25ba0e5, type: 3}
