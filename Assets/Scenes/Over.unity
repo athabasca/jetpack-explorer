@@ -221,11 +221,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c640bf5f831fbf42aa3926374b709cb, type: 3}
---- !u!198 &525985640 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4807804405846892379, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-  m_PrefabInstance: {fileID: 1405206203}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,18 +404,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1405206205, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-      propertyPath: leftBooster
-      value: 
-      objectReference: {fileID: 1919696710}
-    - target: {fileID: 1405206205, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-      propertyPath: mainBooster
-      value: 
-      objectReference: {fileID: 1525566061}
-    - target: {fileID: 1405206205, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-      propertyPath: rightBooster
-      value: 
-      objectReference: {fileID: 525985640}
     - target: {fileID: 525271772521105931, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -471,11 +454,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
---- !u!198 &1525566061 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2299790009783654191, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-  m_PrefabInstance: {fileID: 1405206203}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1583570277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -533,11 +511,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9231dd773e1fbb74a93a476ba15f25e8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c640bf5f831fbf42aa3926374b709cb, type: 3}
---- !u!198 &1919696710 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 955166995767740949, guid: 75b0a9ee507792b47aba5faa0f625b0d, type: 3}
-  m_PrefabInstance: {fileID: 1405206203}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3033799379888119571
 PrefabInstance:
   m_ObjectHideFlags: 0

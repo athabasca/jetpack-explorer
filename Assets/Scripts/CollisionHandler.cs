@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,16 +15,28 @@ public class CollisionHandler : MonoBehaviour
     AudioSource audioSource;
 
     bool isTransitioning = false;
+    bool isCollisionDisabled = false;
 
     void Start() {
         audioSource = GetComponent<AudioSource>();
     }
 
+    void Update() {
+        processDebugKeys();
+    }
+
+    private void processDebugKeys()
+    {
+        if (Input.GetKeyDown(KeyCode.C)) {
+            isCollisionDisabled = !isCollisionDisabled;
+        }
+    }
+
     void OnCollisionEnter(Collision other) {
         
-        if(isTransitioning) { return; }
+        if (isTransitioning || isCollisionDisabled) { return; }
         
-        switch(other.gameObject.tag)
+        switch (other.gameObject.tag)
         {
             case "Friendly":
                 Debug.Log("Collided with a friendly object");
