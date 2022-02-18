@@ -30,6 +30,9 @@ public class CollisionHandler : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C)) {
             isCollisionDisabled = !isCollisionDisabled;
         }
+        else if (Input.GetKeyDown(KeyCode.L)) {
+            LoadNextLevel();
+        }
     }
 
     void OnCollisionEnter(Collision other) {
